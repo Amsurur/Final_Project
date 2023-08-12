@@ -678,6 +678,30 @@ video {
   width: 99%;
 }
 
+.w-44 {
+  width: 11rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-\[350px\] {
+  width: 350px;
+}
+
+.w-\[450px\] {
+  width: 450px;
+}
+
+.w-\[550px\] {
+  width: 550px;
+}
+
+.w-\[890px\] {
+  width: 890px;
+}
+
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -698,6 +722,14 @@ video {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -710,8 +742,24 @@ video {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-9 {
+  gap: 2.25rem;
 }
 
 .self-center {
@@ -791,6 +839,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#274C5A\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 76 90 / var(--tw-bg-opacity));
+}
+
 .p-10 {
   padding: 2.5rem;
 }
@@ -817,6 +870,10 @@ video {
 
 .p-8 {
   padding: 2rem;
+}
+
+.p-\[10px\] {
+  padding: 10px;
 }
 
 .px-10 {
@@ -904,8 +961,24 @@ video {
   padding-top: 1.25rem;
 }
 
+.pb-\[5rem\] {
+  padding-bottom: 5rem;
+}
+
+.pt-0 {
+  padding-top: 0px;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-end {
+  text-align: end;
 }
 
 .font-mono {
@@ -949,6 +1022,26 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
+.text-\[19px\] {
+  font-size: 19px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
+}
+
+.text-\[35px\] {
+  font-size: 35px;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
 }
 
 .font-bold {
@@ -1149,6 +1242,14 @@ video {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
+  }
+
   .sm\:text-center {
     text-align: center;
   }
@@ -1156,5 +1257,9 @@ video {
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .sm\:text-\[30px\] {
+    font-size: 30px;
   }
 }
