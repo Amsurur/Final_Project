@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('home\img\bg-img-1.png')",
+
+      }
+    },
     screens: {
       '2xl': {'max': '1535px'},
       // => @media (max-width: 1535px) { ... }
@@ -19,6 +24,7 @@ module.exports = {
       'sm': {'max': '639px'},
       // => @media (max-width: 639px) { ... }
     }
+
   },
   plugins: [],
 }
