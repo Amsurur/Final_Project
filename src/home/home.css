@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(img/Background.png);
+    background-size: cover;
+    height: 650px;
+}
+.head{
+    background-image: url(img/bg-img-1.png);
+    background-size: cover;
+    height: 650px;
+}
+.head .left p:nth-child(1){
+    font-family: 'Yellowtail', cursive;
+}
+.first-card{
+    background-image: url(img/Image.png);
+    background-size: cover;
+
+}
+.first-card-2{
+    background-image: url(img/Image2.png);
+    background-size: cover;
+
+}
+.first-card-2 p:first-child{
+    font-family: 'Yellowtail', cursive;
+}
+.first-card p:first-child{
+    font-family: 'Yellowtail', cursive;
+}
+/* 2 */
+.second-img{
+    background-image: url(img/bg-img-2.png);
+    background-size: cover;
+    height: 700px;
+    
+}
+.second-top p:first-child{
+    font-family: 'Yellowtail', cursive;
+}
+/* 3 */
+.third-top p:first-child{
+    font-family: 'Yellowtail', cursive;
+}
+.third-but img {
+background-image: url(img/Backgroundbroc.png);
+background-size: cover;
+}
+/* 4 */
+.fourth{
+    background-image: url(img/bg-img-4.jpg);
+    background-size: cover;
+}
+.fourth  p:first-child{
+    font-family: 'Yellowtail', cursive;
+}
+/* 5 */
+.five p:first-child{
+    font-family: 'Yellowtail', cursive;
+}
+/* 6 */
+.sixth p:first-child{
+    font-family: 'Yellowtail', cursive;
+}
