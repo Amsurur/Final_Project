@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Inter:wght@500&family=Karma&family=League+Spartan:wght@200&family=Montserrat:wght@100;300&family=Poppins:wght@200;300&family=Raleway:ital,wght@0,200;0,500;1,100&family=Roboto:wght@300;400&family=Rubik&family=Sintony&family=Source+Code+Pro:wght@200&family=Source+Sans+3:wght@200&family=Yellowtail&display=swap");
+
+.organic {
+  color: #274c5b;
+  font-family: Roboto;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.lii {
+  color: #274c5b;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.lii1 {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bac1 {
+  background-image: url(ismoil/img/bacc1.png);
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 1000px;
+}
+.about {
+  color: #7eb693;
+  font-family: Yellowtail;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.we {
+  color: #274c5b;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.wee {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.te {
+  color: #525c60;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165.4%; /* 29.772px */
+  margin-bottom: 50px;
+}
+.nt {
+}
+.bo {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 250px;
+  height: 80px;
+  border-radius: 49px;
+  background: #ececec;
+}
+.im {
+  
+  transform: rotate(90deg);
+  flex-shrink: 0;
+}
+.first-card{
+    background-image: url(img/Image.png);
+    background-size: cover;
+
+}
+.first-card-2{
+    background-image: url(img/Image2.png);
+    background-size: cover;
+
+}
+.first-card-2 p:first-child{
+    font-family: 'Yellowtail', cursive;
+}
+.first-card p:first-child{
+    font-family: 'Yellowtail', cursive;
+}
+/* 2 */
+.second-img{
+    background-image: url(img/bg-img-2.png);
+    background-size: cover;
+    height: 700px;
+    
+}
+.second-top p:first-child{
+    font-family: 'Yellowtail', cursive;
+}
+/* 3 */
+.third-top p:first-child{
+    font-family: 'Yellowtail', cursive;
+}
+.third-but img {
+background-image: url(img/Backgroundbroc.png);
+background-size: cover;
+}
+/* 4 */
+.fourth{
+    background-image: url(img/bg-img-4.jpg);
+    background-size: cover;
+}
+.fourth  p:first-child{
+    font-family: 'Yellowtail', cursive;
+}
+/* 5 */
+.five p:first-child{
+    font-family: 'Yellowtail', cursive;
+}
+/* 6 */
+.sixth p:first-child{
+    font-family: 'Yellowtail', cursive;
+}
