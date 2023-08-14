@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+          screens: {
+            '2xl': {'max': '1535px'},
+            // => @media (max-width: 1535px) { ... }
+      
+            'xl': {'max': '1279px'},
+            // => @media (max-width: 1279px) { ... }
+      
+            'lg': {'max': '1023px'},
+            // => @media (max-width: 1023px) { ... }
+      
+            'md': {'max': '767px'},
+            // => @media (max-width: 767px) { ... }
+      
+            'sm': {'max': '420px'},
+            // => @media (max-width: 639px) { ... }
+          },
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <div class="container w-[85%] mx-[auto]">
+        <div class="navbar flex justify-between items-center mt-[30px]">
+          <div class="w-[168px]"><img src="/Logo.svg" alt=""></div>
+          <div class="">
+            <ul class="flex gap-[35px] text-[20px] md:hidden sm:hidden">
+              <li>Home</li>
+              <li>About</li>
+              <li>Pages</li>
+              <li>Shop</li>
+              <li>Projects</li>
+              <li>News</li>
+            </ul>
+          </div>
+          <div class="flex">
+            <img class="w-[40px]"  src="/Search Icon.png" alt="">
+            <img class="w-[100px]"  src="/Cart.svg" alt="">
+          </div>
+        </div>
+    </div>
+    <div class="bg">
+      <img class="pt-[70px]" src="/Banner.png" alt="">
+    </div>
+    <div class="container w-[85%] mx-[auto]">
+      <div class="main text-center mt-[140px]">
+          <h1 class="text-[#7EB693] text-[36px]">What We Grow</h1>
+          <h1 class="text-[50px] pt-[20px]">Better Agriculture 
+            for <br>
+             Better Future</h1>
+      </div>
+      <div class="main2 flex">
+       <div class="pt-[130px]">
+        <img src="/1.png" alt="">
+        <img class="pt-[40px]" src="/2.png" alt="">
+        <img class="pt-[40px]" src="/3.png" alt="">
+       </div>
+       <div class="">
+        <img class="w-[100%]" src="/Photo.svg" alt="">
+       </div>
+       <div class="pt-[130px]">
+      <img src="/4.png" alt="">
+      <img class="pt-[40px]" src="/4.png" alt="">
+      <img class="pt-[40px]" src="/4.png" alt="">
+       </div>
+      </div>
+      <img class="w-[180px] flex mx-auto" src="/Button.png" alt="">
+    </div>
+    <div class="bg-[url('/Photo.svg)]">
+      <img class="w-[100%] mt-[100px]" src="/Videos.png" alt="">
+    </div>
+    <div class="container w-[85%] mx-[auto]">
+    </div>
+    <div class="w-[80%] mx-auto mt-[100px]">
+      <div
+        class="grid grid-cols-2 px-10 items-center py-20"
+        style="
+          background-image: url(/Background.png);
+          background-repeat: no-repeat;
+          border-radius: 20px;
+        "
+      >
+        <div>
+          <p class="text-[50px] text-white w-[70%] font-bold">
+            Subscribe to our Newsletter
+          </p>
+        </div>
+        <div>
+          <input
+            class="p-5 rounded-2xl"
+            placeholder="Your Email Address"
+            type="email"
+          />
+          <button 
+            style="background-color: #274c5b"
+            class="rounded-2xl text-white py-[20px] px-[20px]"
+          >Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="mt-[100px]">
+      <div class="flex justify-around pt-10 flex-wrap md:flex-col">
+        <div class="text-end md:text-center">
+          <h4 class="text-[35px] pt-[20px]">Contact Us</h4>
+          <div>
+            <h5 class="text-[19px] pt-[20px]">Email</h5>
+            <p>needhelp@Organia.com</p>
+            <h5 class="text-[19px] pt-[20px]">Phone</h5>
+            <p>666 888 888</p>
+            <h5 class="text-[19px] pt-[20px]">Address</h5>
+            <p class="pt-[20px]">88 road, borklyn street, USA</p>
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-center">
+            <img class="" src="/Logo (2).svg" alt="" />
+            <h3 class="my-10 text-[30px] font-bold text-[#274C5B]">Organik</h3>
+          </div>
+
+          <div>
+            <p class="w-[450px] text-center sm: text-[16px] md:text-center md:mx-auto">
+              Simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum simply dummy text of the printing
+            </p>
+            <div class="flex justify-around pt-10 md:justify-evenly">
+              <img src="/icon 1.svg" alt="" />
+              <img src="/icon 2.svg" alt="" />
+              <img src="/icon 3.svg" alt="" />
+              <img src="/icon 4.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="md:text-center">
+          <h3 class="text-[30px] pt-[20px]">Utility Pages</h3>
+          <div>
+            <ul class="gap-10">
+              <li class="pt-[20px]">Style Guide</li>
+              <li class="pt-[20px]">404 Not Found</li>
+              <li class="pt-[20px]">PAssword Protected</li>
+              <li class="pt-[20px]">Licences</li>
+              <li class="pt-[20px]">Changelong</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
